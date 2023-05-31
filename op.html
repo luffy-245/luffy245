@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE PIECE</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<link rel="stylesheet" href="op.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 1375px 810px;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 26px;
+        top: 25px;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        padding-left: 10px;
+        width: 205px;
+    }
+
+    .left div {
+        text-align: center;
+        color: white;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 25px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 10px;
+        top: 25px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 2px 20px;
+        color: white;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(187, 182, 182);
+    }
+
+    #cont {
+        display: inline-block;
+        position: relative;
+        right: -58px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        padding: 8px 16px;
+        margin: 2px 2px;
+        border: 2px solid grey;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+
+    .btn:hover {
+        background-color: rgb(207, 207, 207);
+    }
+
+    .container {
+        text-align: center;
+        display: block;
+        width: 50%;
+        border: 3px solid white;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 96px;
+    }
+
+    .formg input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 349px;
+        border: 2px solid black;
+        margin: 11px auto;
+        padding: 1px;
+        font-size: 19px;
+        border-radius: 8px;
+    }
+
+    .container .btn {
+        background-color: black;
+        color: white;
+        display: block;
+        width: 39%;
+        margin: 32px auto;
+    }
+
+    .container button:hover {
+        background-color: rgb(61, 61, 61);
+    }
+
+    .header {
+        position: sticky;
+        top:0px;
+        border-bottom: 2px solid black;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background: url(img/bg1.jpg);
+        background-size: 1356px 618px;
+        background-position: -6px -318px;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left for name -->
+        <div class="left">
+            <img src="img/op.png" alt="">
+            <div>ONE PIECE INFO</div>
+        </div>
+        <!-- Mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="op.html" class="active">Home</a></li>
+                <li><a href="char.html">Characters</a></li>
+                <li><a href="#">About</a></li>
+
+            </ul>
+        </div>
+        <!-- right for contact and stuff -->
+        <div class="right">
+            <div id="ytlink"><button class="btn">Youtube channel link</button></div>
+            <button class="btn" id="cont">Contact us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>WELCOME TO THIS WEBSITE</h1>
+        <p>In this site , you will find information about one piece characters and their images . This site is second
+            project.</p>
+    </div>
+    <div class="container" id="formm">
+        <h2>Please give review</h2>
+        <form action="noaction.php">
+            <div class="formg">
+                <input type="text" name="" id="" placeholder="Enter you email">
+            </div>
+            <div class="formg">
+                <input type="number" name="" id="" placeholder="Out of 10">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

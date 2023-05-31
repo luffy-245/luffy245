@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url(img/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: 1375px 1500px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 26px;
+            top: 25px;
+            /* border: 2px solid red; */
+        }
+
+        .left img {
+            padding-left: 10px;
+            width: 205px;
+        }
+
+        .left div {
+            text-align: center;
+            color: white;
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 25px auto;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            position: absolute;
+            right: 10px;
+            top: 25px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 2px 20px;
+            color: white;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(187, 182, 182);
+        }
+
+        #cont {
+            display: inline-block;
+            position: relative;
+            right: -58px;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            padding: 8px 16px;
+            margin: 2px 2px;
+            border: 2px solid grey;
+            border-radius: 25px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+
+        .btn:hover {
+            background-color: rgb(207, 207, 207);
+        }
+
+        .header {
+            position: sticky;
+            top: 0px;
+            border-bottom: 2px solid black;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            background: url(img/bg1.jpg);
+            background-size: 1376px 618px;
+            background-position: -6px -318px;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            /* border: 2px solid black; */
+            padding: 2px 2px;
+            margin: 2px 2px;
+            text-align: center;
+        }
+
+        .container img {
+            height: 267px;
+            width: 322px;
+            padding:1px ;
+            border: 2px solid black;
+        }
+        .container table , .container table th{
+            border : 2px solid black;
+            margin :auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left for name -->
+        <div class="left">
+            <img src="img/op.png" alt="">
+            <div>ONE PIECE INFO</div>
+        </div>
+        <!-- Mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="op.html">Home</a></li>
+                <li><a href="char.html" class="active">Characters</a></li>
+                <li><a href="#">About</a></li>
+
+            </ul>
+        </div>
+        <!-- right for contact and stuff -->
+        <div class="right">
+            <div id="ytlink"><button class="btn">Youtube channel link</button></div>
+            <button class="btn" id="cont">Contact us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>RORONOA ZORO</h1>
+        <img src="img/zoro1.png" alt="">
+        <table>
+            
+            <tbody>
+                <th>Pirate Group: </th>
+                <th>Straw Hat Pirates</th>
+            </tbody>
+            <tbody>
+                <th>Captain: </th>
+                <th>Monkey D. Luffy</th>
+            </tbody>
+            
+            <tbody>
+                <th>DF: </th>
+                <th>No DF</th>
+            </tbody>
+            
+        </table>
+        <p>Roronoa Zoro,[20] also known as "Pirate Hunter" Zoro,[9] is a main combatant of the Straw Hat Pirates, one of their two swordsmen, one of the Senior Officers of the Straw Hat Grand Fleet,[4] and is publicly recognized as the right-hand man of his crew's captain Monkey D. Luffy.[21][22] Formerly a bounty hunter,[6] he is the second member of Luffy's crew and the first to join it, doing so in the Romance Dawn Arc.[2]
+
+            Born in the East Blue, Zoro is the son of Tera and Roronoa Arashi, the grandson of Shimotsuki Furiko and Roronoa Pinzoro, and the grandnephew of Shimotsuki Ushimaru, making him a matrilineal descendant of both the Shimotsuki Family of Wano Country and the legendary samurai, Shimotsuki Ryuma.[3][11] As a master of Three Sword Style, a swordsmanship style which he created during his childhood training in Shimotsuki Village, Zoro is one of the most powerful combatants of the Straw Hats, alongside Luffy and Sanji, who are referred to as the "Monster Trio".[23][24] His dream is to become the greatest swordsman in the world, in order to honor a promise he made to his fallen childhood friend Kuina.[25]
+            
+            In addition to his infamy as one of the Straw Hats and as a former bounty hunter, Zoro, alongside his captain are included among the ranks of the "Worst Generation", pirates who simultaneously reached the Sabaody Archipelago with bounties of over Beli100,000,000 shortly before the Summit War, as well as Marshall D. Teach.</p>
+    </div>
+</body>
+
+</html>
